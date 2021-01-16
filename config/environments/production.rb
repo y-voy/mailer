@@ -74,7 +74,7 @@ Rails.application.configure do
     address: "smtp.SendGrid.net",
     port: 587,
     authentication: :plain,
-    enable_starttls_suto: true
+    enable_starttls_auto: true
   }
 
   # Ignore bad email addresses and do not raise email delivery errors.
